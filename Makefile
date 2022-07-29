@@ -19,7 +19,7 @@ install:
         
 		sudo chmod +x /bin/hadolint
 	   
-	   /bin/hadolint Dockerfile
+	    /bin/hadolint Dockerfile
 
 test:
 	# Additional, optional, tests could go here
