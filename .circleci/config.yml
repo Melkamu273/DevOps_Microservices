@@ -40,4 +40,4 @@ jobs:
 workflows:
   default:
     jobs:
-      - builds
+      - build
