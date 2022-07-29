@@ -10,7 +10,7 @@ dockerpath=melkamu372/housing-price-predictor
 
 # Step 2:  
 # Authenticate & tag
-echo ****** | docker login --username melkamu372 --password-stdin
+echo *********| docker login --username melkamu372 --password-stdin
 docker image tag ml-predictor $dockerpath
 echo "Docker ID and Image: $dockerpath"
 
